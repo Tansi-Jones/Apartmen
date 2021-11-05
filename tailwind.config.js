@@ -10,6 +10,7 @@ module.exports = {
         darkBlue: "#11162D",
         lightBlue: "#05B1F1",
         zeroBlue: "#F0F4F5",
+        lightyellow: "#FEF7E3",
       },
       fontFamily: {
         lato: "'Lato', sans-serif",

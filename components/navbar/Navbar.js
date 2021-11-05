@@ -8,7 +8,7 @@ export default function Navbar() {
         <span className=" text-skyBlue font-bold">Apart</span>men
       </h1>
 
-      <div className="hidden md:block space-x-7 ">
+      <div className="hidden md:block space-x-14 ">
         {menuLinks.map(({ id, path, label }) => (
           <Link
             activeClass="active"
