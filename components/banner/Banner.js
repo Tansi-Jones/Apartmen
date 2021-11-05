@@ -26,7 +26,7 @@ export default function Banner() {
             </span>
           </h1>
         </div>
-        <button className="bg-yellow py-3 px-8 text-white rounded-sm text-sm">
+        <button className="bg-yellow py-3 px-8 text-white rounded-sm text-md">
           <span>Book Now</span>
         </button>
       </div>

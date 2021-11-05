@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import About from "../components/about/About";
 
 import Banner from "../components/banner/Banner";
 import DocHead from "../components/head/DocHead";
@@ -27,7 +28,7 @@ export default function Home() {
         <nav
           className={`py-4 sticky top-0 z-50 ${
             onScroll && navbackground
-          } transition transform ease-in-out duration-400`}
+          } transition transform ease-in-out duration-500`}
         >
           <Navbar />
         </nav>
@@ -37,7 +38,10 @@ export default function Home() {
             <Partner />
           </header>
 
-          <main></main>
+          <main>
+            {/* about section */}
+            <About />
+          </main>
 
           <footer></footer>
         </div>
