@@ -1,3 +1,4 @@
+import Banner from "../components/banner/Banner";
 import DocHead from "../components/head/DocHead";
 import Navbar from "../components/navbar/Navbar";
 
@@ -7,15 +8,20 @@ export default function Home() {
       {/* Document Head */}
       <DocHead />
 
-      <nav>
-        <Navbar />
-      </nav>
+      <div className="bg-zeroBlue">
+        <nav className="py-4">
+          <Navbar />
+        </nav>
+        <div className="w-[90%] mx-auto font-lato tracking-wider">
+          <header>
+            <Banner />
+          </header>
 
-      <header></header>
+          <main></main>
 
-      <main></main>
-
-      <footer></footer>
+          <footer></footer>
+        </div>
+      </div>
     </>
   );
 }

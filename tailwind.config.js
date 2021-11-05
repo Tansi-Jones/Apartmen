@@ -9,6 +9,7 @@ module.exports = {
         yellow: "#FDAC39",
         darkBlue: "#11162D",
         lightBlue: "#05B1F1",
+        zeroBlue: "#F0F4F5",
       },
       fontFamily: {
         lato: "'Lato', sans-serif",
