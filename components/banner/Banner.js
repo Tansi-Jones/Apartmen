@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Banner() {
   return (
-    <div className="grid lg:grid-cols-2 my-16 gap-5">
+    <div className="grid lg:grid-cols-2 my-7 md:my-16 gap-10">
       <div className="space-y-10 pt-14">
-        <h1 className=" capitalize font-extrabold text-6xl max-w-lg">
+        <h1 className=" capitalize font-extrabold text-5xl md:text-6xl max-w-lg">
           best apartment & hotel
           <span className="text-skyBlue"> service</span>
         </h1>
@@ -49,9 +49,9 @@ export default function Banner() {
               <div className="flex relative space-x-4 bg-white p-2 w-[18rem] rounded-md">
                 <div className="relative rounded-md w-[50px] h-[50px]">
                   <Image
-                    src="/img/banner/img-4.jpg"
+                    src="/img/avatar/avatar-1.jpg"
                     layout="fill"
-                    className="  rounded-md object-cover"
+                    className="rounded-md object-cover"
                   />
                 </div>
                 <div className="flex items-center space-x-10">
@@ -66,14 +66,14 @@ export default function Banner() {
               </div>
             </div>
           </div>
-          <div className="relative   rounded-md">
+          <div className="relative rounded-md">
             <Image
               src="/img/banner/img-4.jpg"
               layout="fill"
               className="  rounded-md object-cover"
             />
           </div>
-          <div className="relative   col-start-3 row-span-2 rounded-md ">
+          <div className="relative col-start-3 row-span-2 rounded-md ">
             <Image
               src="/img/banner/img-3.jpg"
               layout="fill"

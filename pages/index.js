@@ -1,6 +1,7 @@
 import Banner from "../components/banner/Banner";
 import DocHead from "../components/head/DocHead";
 import Navbar from "../components/navbar/Navbar";
+import Partner from "../components/partner/Partner";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <div className="w-[90%] mx-auto font-lato tracking-wider">
           <header>
             <Banner />
+            <Partner />
           </header>
 
           <main></main>
