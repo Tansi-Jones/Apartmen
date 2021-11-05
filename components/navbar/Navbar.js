@@ -23,7 +23,7 @@ export default function Navbar() {
           </Link>
         ))}
       </div>
-      <div className="hidden md:block">
+      <div className="">
         <button className="py-[0.4rem] px-6 text-white bg-darkBlue rounded-sm font-sans text-sm">
           Login
         </button>

@@ -3,7 +3,7 @@ import { ImPlay2 } from "@react-icons/all-files/im/ImPlay2";
 
 export default function About() {
   return (
-    <section className="flex flex-col md:flex-row md:space-x-16 md:justify-evenly my-20 pb-20">
+    <section className="flex flex-col md:flex-row md:space-x-16 md:justify-evenly my-32 pb-20">
       <div className="relative bg-skyBlue rounded-md w-full md:w-[25rem] h-[22rem] lg:h-[30rem]">
         <div className="absolute w-full md:w-[27rem] h-[22rem] lg:h-[30rem] md:transform md:translate-x-10 md:translate-y-14">
           <Image

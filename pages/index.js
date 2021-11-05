@@ -6,6 +6,7 @@ import Banner from "../components/banner/Banner";
 import DocHead from "../components/head/DocHead";
 import Navbar from "../components/navbar/Navbar";
 import Partner from "../components/partner/Partner";
+import Service from "../components/service/Service";
 
 export default function Home() {
   const [navbackground, setNavbackground] = useState("bg-white");
@@ -43,6 +44,11 @@ export default function Home() {
             {/* about section */}
             <Element name="about" className="element">
               <About />
+            </Element>
+
+            {/* service section */}
+            <Element name="services" className="element">
+              <Service />
             </Element>
           </main>
 
