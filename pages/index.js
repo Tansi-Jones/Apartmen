@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import About from "../components/about/About";
+import { Element } from "react-scroll";
 
+import About from "../components/about/About";
 import Banner from "../components/banner/Banner";
 import DocHead from "../components/head/DocHead";
 import Navbar from "../components/navbar/Navbar";
@@ -40,7 +41,9 @@ export default function Home() {
 
           <main>
             {/* about section */}
-            <About />
+            <Element name="about" className="element">
+              <About />
+            </Element>
           </main>
 
           <footer></footer>

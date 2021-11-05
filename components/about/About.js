@@ -3,9 +3,9 @@ import { ImPlay2 } from "@react-icons/all-files/im/ImPlay2";
 
 export default function About() {
   return (
-    <section className="grid xl:grid-cols-2 my-20 pb-20">
-      <div className="relative bg-skyBlue rounded-md w-[20rem] h-[25rem]">
-        <div className="absolute w-[20rem] h-[25rem]">
+    <section className="flex flex-col md:flex-row md:space-x-16 md:justify-evenly my-20 pb-20">
+      <div className="relative bg-skyBlue rounded-md w-full md:w-[25rem] h-[22rem] lg:h-[30rem]">
+        <div className="absolute w-full md:w-[27rem] h-[22rem] lg:h-[30rem] md:transform md:translate-x-10 md:translate-y-14">
           <Image
             src="/img/banner/img-1.jpg"
             layout="fill"
@@ -30,7 +30,7 @@ export default function About() {
             <span>Read our Story</span>
           </button>
 
-          <button className="text-yellow py-3 px-1 bg-transparent rounded-sm text-md flex items-center space-x-2 md:space-x-5 hover:border">
+          <button className="text-yellow py-3 px-1 bg-transparent rounded-sm text-md flex items-center space-x-2 md:space-x-5 ">
             <span>
               <ImPlay2 className="sm:text-2xl" />
             </span>
