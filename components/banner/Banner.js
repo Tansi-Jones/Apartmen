@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { HiOutlineArrowNarrowRight } from "@react-icons/all-files/hi/HiOutlineArrowNarrowRight";
 
 export default function Banner() {
   return (
@@ -26,8 +27,11 @@ export default function Banner() {
             </span>
           </h1>
         </div>
-        <button className="bg-yellow py-3 px-8 text-white rounded-sm text-md">
-          <span>Book Now</span>
+        <button className="capitalize bg-yellow py-3 px-8 text-white rounded-sm text-md flex items-center space-x-5">
+          <span>book now</span>
+          <span className="pt-1 text-xl">
+            <HiOutlineArrowNarrowRight />
+          </span>
         </button>
       </div>
       <div className="">

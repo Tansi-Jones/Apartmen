@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ImPlay2 } from "@react-icons/all-files/im/ImPlay2";
+import { HiOutlineArrowNarrowRight } from "@react-icons/all-files/hi/HiOutlineArrowNarrowRight";
 
 export default function About() {
   return (
@@ -26,8 +27,11 @@ export default function About() {
         </p>
 
         <div className="flex space-x-10">
-          <button className="bg-yellow py-3 px-8 text-white rounded-sm text-md">
-            <span>Read our Story</span>
+          <button className="capitalize bg-yellow py-3 px-8 text-white rounded-sm text-md flex items-center space-x-5">
+            <span>read our story</span>
+            <span className="pt-1 text-xl">
+              <HiOutlineArrowNarrowRight />
+            </span>
           </button>
 
           <button className="text-yellow py-3 px-1  rounded-sm text-md flex items-center space-x-2 md:space-x-5 ">

@@ -11,7 +11,7 @@ import Offer from "../components/room/Offer";
 import Service from "../components/service/Service";
 
 export default function Home() {
-  const [navbackground, setNavbackground] = useState("bg-white");
+  const [navbackground, setNavbackground] = useState("bg-white shadow-sm");
   const [onScroll, setOnScroll] = useState(false);
 
   useEffect(() => {
@@ -60,10 +60,12 @@ export default function Home() {
             <Rating />
           </Element>
 
-          {/* offers section */}
-          <Element name="offers" className="element">
-            <Offer />
-          </Element>
+          <div className="w-[90%] mx-auto font-lato tracking-wider">
+            {/* best offer section */}
+            <Element name="offer" className="element">
+              <Offer />
+            </Element>
+          </div>
         </main>
 
         <footer></footer>
