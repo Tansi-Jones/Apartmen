@@ -11,7 +11,7 @@ module.exports = {
         lightBlue: "#05B1F1",
         zeroBlue: "#F0F4F5",
         lightyellow: "#FEF7E3",
-        transparent: "rgba(5, 177, 241,0.4)",
+        transparent: "rgba(5, 177, 241,0.6)",
       },
       fontFamily: {
         lato: "'Lato', sans-serif",
@@ -21,5 +21,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
