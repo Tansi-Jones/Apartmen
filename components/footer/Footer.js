@@ -48,7 +48,11 @@ export default function Footer() {
       <div className="">
         <h1 className=" text-2xl text-skyBlue font-bold  pb-5">Contact</h1>
         <div className="w-full h-[200px] md:h-[170px] bg-transparent mb-5 relative">
-          <Image src="/img/map/map.jpg" layout="fill" />
+          <Image
+            src="/img/map/map.jpg"
+            layout="fill"
+            className="object-cover"
+          />
         </div>
         <button className="capitalize bg-yellow py-3 px-8 text-white rounded-sm text-md flex items-center space-x-5">
           <span>get on maps</span>

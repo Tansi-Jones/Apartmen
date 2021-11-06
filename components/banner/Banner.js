@@ -36,16 +36,16 @@ export default function Banner() {
       </div>
       <div className="">
         <div className="grid grid-flow-col grid-rows-2 grid-cols-3 gap-2 ">
-          <div className="relative  rounded-md h-[18rem]">
+          <div className="relative rounded-md h-[18rem]  col-start-1 row-start-1 col-span-3 md:col-span-1">
             <Image
-              src="/img/banner/img-1.jpg"
+              src="/img/banner/img-3.jpg"
               layout="fill"
               className="  rounded-md object-cover"
             />
           </div>
-          <div className="relative   col-start-1 row-start-2 col-span-2 rounded-md">
+          <div className="relative col-start-1 row-start-2 col-span-3 md:col-span-2 rounded-md">
             <Image
-              src="/img/banner/img-2.jpg"
+              src="/img/banner/img-4.jpg"
               layout="fill"
               className="  rounded-md object-cover"
             />
@@ -72,14 +72,14 @@ export default function Banner() {
           </div>
           <div className="relative rounded-md">
             <Image
-              src="/img/banner/img-4.jpg"
+              src="/img/banner/img-1.jpg"
               layout="fill"
               className="  rounded-md object-cover"
             />
           </div>
-          <div className="relative col-start-3 row-span-2 rounded-md ">
+          <div className="hidden md:block relative col-start-3 row-span-2 rounded-md ">
             <Image
-              src="/img/banner/img-3.jpg"
+              src="/img/banner/img-2.jpg"
               layout="fill"
               className="  rounded-md object-cover"
             />

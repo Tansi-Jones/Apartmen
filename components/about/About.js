@@ -27,7 +27,7 @@ export default function About() {
         </p>
 
         <div className="flex space-x-10">
-          <button className="capitalize bg-yellow py-3 px-8 text-white rounded-sm text-md flex items-center space-x-5">
+          <button className="capitalize bg-yellow py-3 px-6 md:px-8 text-white rounded-sm text-sm md:text-md flex items-center space-x-2">
             <span>read our story</span>
             <span className="pt-1 text-xl">
               <HiOutlineArrowNarrowRight />
