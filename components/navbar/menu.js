@@ -1,7 +1,7 @@
 export default [
   {
     id: "0",
-    path: "home",
+    path: "top",
     label: "Home",
   },
   {

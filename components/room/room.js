@@ -1,7 +1,7 @@
 export default [
   {
     id: "0",
-    img: "/img/banner/img-1.jpg",
+    img: "/img/room/img-5.jpg",
     title: "executive room",
     amount: 345.0,
     features: [
@@ -14,7 +14,7 @@ export default [
   },
   {
     id: "1",
-    img: "/img/banner/img-1.jpg",
+    img: "/img/room/img-2.jpg",
     title: "executive room",
     amount: 355.0,
     features: [
@@ -27,7 +27,7 @@ export default [
   },
   {
     id: "2",
-    img: "/img/banner/img-1.jpg",
+    img: "/img/room/img-3.jpg",
     title: "medium room",
     amount: 315.0,
     features: [
@@ -40,7 +40,7 @@ export default [
   },
   {
     id: "3",
-    img: "/img/banner/img-1.jpg",
+    img: "/img/room/img-4.jpg",
     title: "business room",
     amount: 375.0,
     features: [

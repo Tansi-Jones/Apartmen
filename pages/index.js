@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 
 import About from "../components/about/About";
 import Banner from "../components/banner/Banner";
+import Footer from "../components/footer/Footer";
 import DocHead from "../components/head/DocHead";
 import Navbar from "../components/navbar/Navbar";
 import Partner from "../components/partner/Partner";
@@ -34,8 +35,11 @@ export default function Home() {
             onScroll && navbackground
           } transition transform ease-in-out duration-500`}
         >
-          <Navbar />
+          <Element name="top" className="element">
+            <Navbar />
+          </Element>
         </nav>
+
         <div className="w-[90%] mx-auto font-lato tracking-wider">
           <header>
             <Banner />
@@ -65,10 +69,17 @@ export default function Home() {
             <Element name="offer" className="element">
               <Offer />
             </Element>
+
+            {/* best offer section */}
+            <Element name="testimonial" className="element"></Element>
           </div>
         </main>
 
-        <footer></footer>
+        <footer>
+          <div className="w-[90%] mx-auto font-lato tracking-wider">
+            <Footer />
+          </div>
+        </footer>
       </div>
     </>
   );

@@ -8,7 +8,7 @@ export default function About() {
       <div className="relative bg-skyBlue rounded-md w-full md:w-[25rem] h-[22rem] lg:h-[30rem]">
         <div className="absolute w-full md:w-[27rem] h-[22rem] lg:h-[30rem] md:transform md:translate-x-10 md:translate-y-14">
           <Image
-            src="/img/banner/img-1.jpg"
+            src="/img/room/img-1.jpg"
             layout="fill"
             className="rounded-md object-cover"
           />

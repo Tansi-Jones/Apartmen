@@ -6,7 +6,7 @@ export default function Offer() {
   return (
     <section>
       <div className="space-y-10 py-10 my-16">
-        <p className="text-yellow font-semibold">😍 About Us</p>
+        <p className="text-yellow font-semibold">😍 Beautiful Room</p>
         <div className="flex items-start sm:items-center justify-between flex-col md:flex-row">
           <h1 className=" capitalize font-extrabold text-4xl md:text-6xl pb-10">
             best room for you
