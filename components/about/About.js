@@ -30,7 +30,7 @@ export default function About() {
             <span>Read our Story</span>
           </button>
 
-          <button className="text-yellow py-3 px-1 bg-transparent rounded-sm text-md flex items-center space-x-2 md:space-x-5 ">
+          <button className="text-yellow py-3 px-1  rounded-sm text-md flex items-center space-x-2 md:space-x-5 ">
             <span>
               <ImPlay2 className="sm:text-2xl" />
             </span>

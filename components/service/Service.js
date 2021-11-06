@@ -2,7 +2,7 @@ import { RiShieldCheckFill } from "@react-icons/all-files/ri/RiShieldCheckFill";
 
 export default function Service() {
   return (
-    <div className="my-10 space-y-5 text-center pb-10">
+    <section className="my-10 space-y-5 text-center pb-10">
       <p className="text-gray-700 font-semibold">👍 Recommended</p>
       <h1 className=" capitalize font-extrabold text-5xl md:text-6xl ">
         best service
@@ -47,6 +47,6 @@ export default function Service() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
