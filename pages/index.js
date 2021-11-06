@@ -11,6 +11,9 @@ import Rating from "../components/rating/Rating";
 import Offer from "../components/room/Offer";
 import Service from "../components/service/Service";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 export default function Home() {
   const [navbackground, setNavbackground] = useState("bg-white shadow-sm");
   const [onScroll, setOnScroll] = useState(false);
@@ -23,6 +26,14 @@ export default function Home() {
         setOnScroll(false);
       }
     });
+  }, []);
+
+  useEffect(() => {
+    // effect;
+    Aos.init({ duration: 3000 });
+    return () => {
+      // cleanup;
+    };
   }, []);
   return (
     <>
@@ -41,33 +52,43 @@ export default function Home() {
         </nav>
 
         <div className="w-[90%] mx-auto font-lato tracking-wider">
-          <header>
-            <Banner />
-            <Partner />
-          </header>
+          <div data-aos="fade-up">
+            <header>
+              <Banner />
+              <Partner />
+            </header>
+          </div>
         </div>
         <main>
           {/* about section */}
           <div className="w-[90%] mx-auto font-lato tracking-wider">
             <Element name="about" className="element">
-              <About />
+              <div data-aos="fade-up">
+                <About />
+              </div>
             </Element>
 
             {/* service section */}
             <Element name="services" className="element">
-              <Service />
+              <div data-aos="fade-up">
+                <Service />
+              </div>
             </Element>
           </div>
 
           {/* rating section */}
           <Element name="" className="element">
-            <Rating />
+            <div data-aos="fade-up">
+              <Rating />
+            </div>
           </Element>
 
           <div className="w-[90%] mx-auto font-lato tracking-wider">
             {/* best offer section */}
             <Element name="offer" className="element">
-              <Offer />
+              <div data-aos="fade-up">
+                <Offer />
+              </div>
             </Element>
 
             {/* best offer section */}
@@ -77,7 +98,9 @@ export default function Home() {
 
         <footer>
           <div className="w-[90%] mx-auto font-lato tracking-wider">
-            <Footer />
+            <div data-aos="fade-up">
+              <Footer />
+            </div>
           </div>
         </footer>
       </div>
